@@ -1,10 +1,10 @@
 .App {
-  display: flex; 
-   flex-direction: column;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   font-family: "Inter", sans-serif;
   position: relative;
-  top: 5vh;
+  top: 4vh;
   width: auto;
 }
 
@@ -71,9 +71,19 @@
   color: #6422df;
   cursor: pointer;
 }
-.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+
+.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiStepIcon-root.Mui-active {
   color: #6422df !important;
 }
-.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiStepIcon-root.Mui-completed {
   color: #6422df !important;
 }
+
+@media (max-width: 450px) {
+  .App {
+    margin: 40px;
+    padding-bottom: 30px;
+    top: 10px;
+  }
+}
+
